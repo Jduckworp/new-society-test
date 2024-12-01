@@ -22,6 +22,14 @@
             max-width: 800px;
             margin: 2rem auto;
             padding: 0 1rem;
+            margin-bottom: 100px;
+        }
+        section {
+            background-color: white;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
         footer {
             background-color: #333;
@@ -31,6 +39,11 @@
             position: fixed;
             bottom: 0;
             width: 100%;
+        }
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
         }
     </style>
 </head>
@@ -42,6 +55,50 @@
         <section>
             <h2>About Us</h2>
             <p>This is a simple test page for our new society project.</p>
+        </section>
+        
+        <section>
+            <h2>Our Mission</h2>
+            <p>We strive to create positive change through community engagement and innovative solutions. Our goal is to build a more connected and sustainable future for everyone.</p>
+        </section>
+        
+        <section>
+            <h2>Current Projects</h2>
+            <ul>
+                <li>Community Garden Initiative</li>
+                <li>Youth Education Program</li>
+                <li>Sustainable Living Workshop Series</li>
+                <li>Neighborhood Outreach Program</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Get Involved</h2>
+            <p>There are many ways to contribute to our mission:</p>
+            <ul>
+                <li>Volunteer at our events</li>
+                <li>Join our monthly meetings</li>
+                <li>Donate to support our projects</li>
+                <li>Spread the word in your community</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Contact Information</h2>
+            <div class="contact-info">
+                <div>
+                    <h3>Address</h3>
+                    <p>123 Community Street<br>Cityville, ST 12345</p>
+                </div>
+                <div>
+                    <h3>Email</h3>
+                    <p>info@newsociety.org</p>
+                </div>
+                <div>
+                    <h3>Phone</h3>
+                    <p>(555) 123-4567</p>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
